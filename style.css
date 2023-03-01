@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+/* Header Styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+
+/* Hero Section Styles */
+.hero {
+	background-image: url('https://source.unsplash.com/1600x900/?gym');
+	background-size: cover;
+	background-position: center;
+	height: 500px
+
+}
+
+.hero-text {
+padding: 100px;
+text-align: center;
+}
+
+.hero-text h1 {
+font-size: 60px;
+margin: 0;
+}
+
+.hero-text p {
+font-size: 24px;
+margin: 20px 0;
+}
+
+.btn {
+background-color: #4CAF50;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+text-transform: uppercase;
+font-weight: bold;
+text-decoration: none;
+}
+
+.btn:hover {
+background-color: #3E8E41;
+}
+
+/* About Section Styles */
+.about {
+background-color: #f2f2f2;
+padding: 100px;
+text-align: center;
+}
+
+.about h2 {
+font-size: 36px;
+margin: 0;
+}
+
+.about p {
+font-size: 18px;
+margin: 20px 0;
+}
+
+/* Services Section Styles */
+.services {
+background-color: #fff;
+padding: 100px;
+text-align: center;
+}
+
+.services h2 {
+font-size: 36px;
+margin: 0;
+}
+
+.services ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.services li {
+font-size: 24px;
+margin: 20px 0;
+}
+
+/* Contact Section Styles */
+.contact {
+background-color: #333;
+color: #fff;
+padding: 100px;
+text-align: center;
+}
+
+.contact h2 {
+font-size: 36px;
+margin: 0;
+}
+
+.contact form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.contact label {
+display: block;
+font-size: 24px;
+margin: 20px 0;
+}
+
+.contact input, .contact textarea {
+font-size: 18px;
+padding: 10px;
+border-radius: 5px;
+border: none;
+}
+
+.contact button {
+background-color: #4CAF50;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.contact button:hover {
+background-color: #3E8E41;
+}
+
+/* Footer Styles */
+footer {
+background-color: #333;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+
+
+
+
+
